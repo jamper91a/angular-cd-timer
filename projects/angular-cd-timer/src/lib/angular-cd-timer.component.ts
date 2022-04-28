@@ -179,7 +179,7 @@ export class CdTimerComponent implements AfterViewInit, OnDestroy {
     } else if (this.format === 'ms') {
       // ms presentation
       outputText = '';
-      if(this.hours>0) {
+      if (this.hours > 0) {
         outputText = this.hours.toString().padStart(2, '0') + ':';
       }
       outputText += this.minutes.toString().padStart(2, '0') + ':';
